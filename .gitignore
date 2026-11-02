@@ -22,3 +22,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Persönliche Bewerbungsunterlagen (nur lokal)
+bewerbungen/*
+!bewerbungen/README.md

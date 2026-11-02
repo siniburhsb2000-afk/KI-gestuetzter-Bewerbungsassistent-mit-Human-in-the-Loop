@@ -1,0 +1,27 @@
+{
+  "_hinweis": "Vorlage. Kopieren nach suchparameter.json und anpassen. Keine persönlichen Daten committen.",
+  "suche": {
+    "quelle": "google_jobs",
+    "suchbegriffe": ["Projektingenieur Maschinenbau", "Entwicklungsingenieur"],
+    "orte": ["München"],
+    "umkreis_km": 50,
+    "arbeitsmodell": ["vor Ort", "hybrid", "remote"],
+    "anstellung": ["Vollzeit"],
+    "max_alter_tage": 14,
+    "ausschluss_begriffe": ["Praktikum", "Werkstudent", "Zeitarbeit"]
+  },
+  "matching": {
+    "schwellenwert": 7,
+    "skala_max": 10,
+    "gewichtung": {
+      "fachliche_anforderungen": 0.4,
+      "erfahrung": 0.25,
+      "soft_skills": 0.15,
+      "rahmenbedingungen": 0.2
+    }
+  },
+  "hitl": {
+    "freigabe_vor_export": true,
+    "freigabe_kanal": "manuell"
+  }
+}
